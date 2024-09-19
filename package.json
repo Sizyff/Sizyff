@@ -5,9 +5,7 @@
     "preview": "vite preview",
     "eslint": "npx eslint \"src/**/*.ts\"",
     "stylelint": "npx stylelint \"src/**/*.scss\"",
-    "lint": "npm run eslint && npm run stylelint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "npm run eslint && npm run stylelint"
   },
   "devDependencies": {
     "eslint": "^9.10.0",
